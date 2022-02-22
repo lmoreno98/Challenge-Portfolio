@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+
+body{
+    background: #F5F5F5;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    width: 940px;
+    margin: 0 auto;
+}
+.barra-navegador{
+    /* Posicion relativa para que el nav y la imagen se muevan el respesto a su posicion original */
+    position: relative;
+    /* los margenes de arriba y abajo son 0 para no moverse y los de los costados son automaticos para que se centren a lo hecho */
+    padding: 34px 0;
+    font-size:15px;
+}
+
+.barra-navegador p {
+    display: inline;
+    font-weight: bold;
+    position: relative;
+    bottom: 4px;
+    right: 12px;
+}
+
+.estrella1{
+    position: relative;
+    right: 6px;
+    top:2px;
+}
+
+.estrella2{
+    display: inline;
+    position: relative;
+    bottom: 10px;
+    right: 18px;
+}
+
+nav{
+    position: absolute;
+    top: 34px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li{
+    margin: 0 0 0 32px;
+}
+
+nav a{
+    color: #464646;
+    text-decoration: none;
+}
+#nav-contacto{
+    font-weight: bold;
+}
+
+.redes-presentacion{
+    width:700px;
+    margin: 50px 0 0 0;
+}
+
+.redes-presentacion h1{
+    font-weight: bold;
+    font-size:52px;
+}
+
+.redes-presentacion p{
+    margin-top: 24px;
+    font-size:22px;
+    line-height:26px;
+}
+
+.redes-presentacion li{
+    display: inline;
+}
+
+.redes-presentacion ul{
+    padding: 26px 0 0 0;
+}
+
+.redes-presentacion a{
+    margin: 24px 15px 0 0;
+    color: #464646;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#imagen-frontal{
+    height: 285px;
+    border-radius: 50%;
+    position: relative;
+    top: -300px;
+    right: -72%;
+}
+
+
+.container-sobre-mi{
+    margin-top: -200px;
+    background: #EAF2FD;
+}
+
+.sobre-mi{
+    width: 940px;
+    margin:0 auto;
+    padding: 64px 0;
+}
+
+.sobre-mi h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sobre-mi p{
+    margin-top: 16px;
+    width: 751px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.tarjetas{
+    width: 940px;
+    margin: 32px auto;
+}
+
+.tarjetas h1{
+    font-size:30px;
+    text-align: center;    
+}
+
+.tarjetas ul{
+    margin-top: 32px;
+}
+
+.tarjetas li{
+    height: 174px;
+    width: 176px;
+    display: inline-block;  
+    background-color:#FFF;
+    margin-left: 16px;  
+}
+
+.tarjetas h2 {
+    position: relative;
+    top: 116px;
+    left: 16px;
+    color: #464646;
+}
+
+.tarjetas img {
+    position: relative;
+    top: 100px;
+    left: 16px;
+    height: 27px;
+    width: 22px
+}
+
+#hobbies{
+    margin-top: 88px;
+}
