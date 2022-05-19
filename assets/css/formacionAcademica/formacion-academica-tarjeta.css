@@ -1,0 +1,8 @@
+.formacion-academica__tarjeta{
+    height: 286px;
+    background-color: #FFFFFF;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
