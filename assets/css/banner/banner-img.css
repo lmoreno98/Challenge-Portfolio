@@ -1,0 +1,13 @@
+.banner__img {
+    display: inline;
+    position: relative;
+}
+
+.banner__img:nth-child(2){
+    left: -3px;
+}
+
+.banner__img:nth-child(3){
+    top:-8px;
+    left: -15px;
+}
