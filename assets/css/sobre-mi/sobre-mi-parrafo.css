@@ -1,0 +1,8 @@
+.sobre-mi__parrafo{
+    width: calc(100% - 20%);
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 16px;
+    padding-bottom: 3.5%;
+}

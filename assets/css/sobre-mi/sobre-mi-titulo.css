@@ -1,0 +1,7 @@
+.sobre-mi__titulo{
+    width: calc(100% - 20%);
+    margin: 0 auto;
+    padding: 3.5% 0 2% 0;
+    font-size: 32px;
+    font-weight: bold;
+}
