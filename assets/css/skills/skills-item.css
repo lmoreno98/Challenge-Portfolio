@@ -1,0 +1,8 @@
+.skills__item{
+    background-color: #FFFFFF;
+    display: flex;
+    margin-bottom: 2%;
+    margin-right: 3%;
+    width: 17%;
+    height: 200px
+}
