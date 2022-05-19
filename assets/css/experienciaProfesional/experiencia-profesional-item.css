@@ -1,0 +1,5 @@
+.experiencia-profesional__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
