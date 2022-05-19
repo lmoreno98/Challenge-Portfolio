@@ -1,0 +1,5 @@
+.descripcion{
+    display:flex;
+    width: calc(100% - 20%);
+    margin: 2.5% auto 0 auto;
+}

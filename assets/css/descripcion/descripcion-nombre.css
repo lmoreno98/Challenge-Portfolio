@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+.descripcion__nombre{
+    margin-top: 35px;
+    font-size: 52px;
+    font-family: Raleway;
+    font-weight: bold;
+    width: 100%;
+}
