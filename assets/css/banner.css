@@ -9,7 +9,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 34.5px;
     width: calc(100% - 20%);
-    margin: 0 auto;
+    margin: 3% auto 0 auto;
 }
