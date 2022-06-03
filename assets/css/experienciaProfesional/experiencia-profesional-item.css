@@ -3,3 +3,13 @@
     align-items: center;
     margin-bottom: 5%;
 }
+
+@media screen and (max-width: 768px) {
+    .experiencia-profesional__item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .experiencia-profesional__item:nth-child(2n){
+        flex-direction: column-reverse;
+    }
+}

@@ -1,3 +1,9 @@
 .formacion-academica__item{
     width: 32%;
 }
+
+@media screen and (max-width: 768px) {
+    .formacion-academica__item{
+        width: 100%;
+    }
+}

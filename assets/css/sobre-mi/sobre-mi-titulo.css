@@ -5,3 +5,10 @@
     font-size: 32px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    .sobre-mi__titulo{
+        font-size: 20px;
+        width: calc(100% - 5%);
+    }
+}

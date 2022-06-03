@@ -2,3 +2,9 @@
     margin-top: 50%;
     margin-left: 9% ;
 }
+
+@media screen and (max-width: 768px) {
+    .skills__container{
+        margin-top: 10%;
+    }
+}

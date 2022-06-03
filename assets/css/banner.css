@@ -12,3 +12,9 @@ body{
     width: calc(100% - 20%);
     margin: 3% auto 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+    .banner{
+        width: calc(100% - 5%);
+    }
+}

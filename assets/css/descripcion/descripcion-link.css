@@ -3,3 +3,9 @@
     color: #000000;
     font-size: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .descripcion__link{
+        font-size: 10px;
+    }
+}

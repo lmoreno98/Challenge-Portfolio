@@ -3,3 +3,11 @@
     width: calc(100% - 20%);
     margin: 2.5% auto 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+    .descripcion{
+        display:flex;
+        flex-direction: column-reverse;
+        width: calc(100% - 5%);
+    }
+}

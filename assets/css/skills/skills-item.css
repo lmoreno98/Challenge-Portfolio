@@ -6,3 +6,10 @@
     width: 17%;
     height: 200px
 }
+
+@media screen and (max-width: 768px) {
+    .skills__item{
+        width: 45%;
+        height: 100px;
+    }
+}

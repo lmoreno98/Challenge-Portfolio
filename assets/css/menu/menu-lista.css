@@ -2,3 +2,9 @@
     position: relative;
     top: 8px;
 }
+
+@media screen and (max-width: 768px) {
+    .menu__lista{
+        font-size: 12px;
+    }
+}

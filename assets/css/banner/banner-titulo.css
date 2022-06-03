@@ -3,3 +3,9 @@
     position: relative;
     top: -6px;
 }
+
+@media screen and (max-width: 768px) {
+    .banner__nombre{
+        font-size: 12px;
+    }
+}

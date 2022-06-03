@@ -4,3 +4,9 @@
     font-weight: regular;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .descripcion__estudios{
+        font-size: 12px;
+    }
+}

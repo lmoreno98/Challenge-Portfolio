@@ -2,3 +2,9 @@
     font-size: 22px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+    .experiencia-profesional__nombre{
+        margin-top: 5%;
+    }
+}
