@@ -1,0 +1,12 @@
+.contacto-box{
+    width: calc(100% - 20%);
+    margin: 2.5% auto;
+    display:flex;
+}
+
+@media screen and (max-width: 768px) {
+    .contacto-box{
+        width: calc(100% - 5%);
+        margin: 2.5% auto;
+    }
+}

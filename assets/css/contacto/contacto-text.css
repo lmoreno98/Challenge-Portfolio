@@ -1,0 +1,9 @@
+.contacto__text{
+    margin-top: -5%;
+}
+
+@media screen and (max-width: 768px) {
+    .contacto__text{
+        margin: 2%;
+    }
+}

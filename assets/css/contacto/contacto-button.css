@@ -1,0 +1,13 @@
+.contacto__button{
+    height: 9%;
+    width: 25%;
+    border: none;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .contacto__button{
+        margin-top: 2%
+    }
+}

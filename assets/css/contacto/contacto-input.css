@@ -1,0 +1,28 @@
+.contacto__input{
+    color: #464646;
+    height: 7%;
+    border: none;
+    border-radius: 4px; 
+}
+
+.contacto__input-grande{
+    height: 19%;
+    resize: none;
+}
+
+.contacto__input:focus{
+    outline: none;
+    box-shadow: 0 2px #2A7AE4;
+}
+@media screen and (max-width: 768px) {
+    .contacto__input{
+        margin-top: 5%;
+    }
+
+    .contacto__input{
+        height: 30px;
+    }
+    .contacto__input-grande{
+        height: 65px;
+    }
+}
