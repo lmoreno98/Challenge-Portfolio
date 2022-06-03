@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portfolio </title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/banner/banner-img.css" rel="stylesheet">
@@ -44,7 +46,17 @@
     <link rel="stylesheet" href="./assets/css/experienciaProfesional/experiencia-profesional-titulo.css"rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/experienciaProfesional/experiencia-profesional-buttons.css"rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/experienciaProfesional/experiencia-profesional-item.css"rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="./assets/css/contacto/contacto.css"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-box.css"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-form.css"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-imagen.css"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-titulo.css"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-input.css"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-button.css"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto-text.css"rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/footer.css"rel="stylesheet">
+    
+    </head>
 
 <body>
     <!--                                   Header                                   -->
@@ -75,11 +87,11 @@
                     participando del proyecto Oracle
                     ONE en Alura Latam</p>
                 <ul class="descripcion__lista">
-                    <li class="descripcion__item"><a class="descripcion__link" href="https://github.com/lmoreno98">GitHub </a> &#129125;</li>
-                    <li class="descripcion__item"><a class="descripcion__link" href="https://www.linkedin.com/in/luciano-moreno-bb6ab3191/">LinkedIn </a> &#129125;</li>
-                    <li class="descripcion__item"><a class="descripcion__link" href="https://www.instagram.com/luchomoreno07/">Instagram </a> &#129125;</li>
-                    <li class="descripcion__item"><a class="descripcion__link" href="http://">CV Español </a>&#129125;</li>
-                    <li class="descripcion__item"><a class="descripcion__link" href="http://">CV Ingles </a>&#129125;</li>
+                    <li class="descripcion__item"><a class="descripcion__link" href="https://github.com/lmoreno98">GitHub &#129125;</a></li>
+                    <li class="descripcion__item"><a class="descripcion__link" href="https://www.linkedin.com/in/luciano-moreno-bb6ab3191/">LinkedIn &#129125;</a></li>
+                    <li class="descripcion__item"><a class="descripcion__link" href="https://www.instagram.com/luchomoreno07/">Instagram &#129125;</a></li>
+                    <li class="descripcion__item"><a class="descripcion__link" href="http://">CV Español &#129125;</a></li>
+                    <li class="descripcion__item"><a class="descripcion__link" href="http://">CV Ingles &#129125;</a></li>
                 </ul>
             </div>
             <img src="./assets/img/face.jpg" class="descripcion__foto" alt="Foto Perfil"></img>
@@ -212,9 +224,55 @@
                             <a class="experiencia-profesional__demo" href="./assets/pages/Hangman/Menu.html">Ver Demo</a>
                         </div>
                     </div>
-                    <img class="experiencia-profesional__imagen" src="./assets/img/ahorcado.png" alt="">
+                    <img class="experiencia-profesional__imagen" src="./assets/img/ahorcado.png" alt="ahorcado">
                 </li>
             </ul>    
         </div>
+        <div class="contacto">
+            <div class = "contacto-box">
+                <img class="contacto__imagen" src="./assets/img/telefono.png" alt="telefono">
+                <form class="contacto-form">
+                    <h2 class="contacto__titulo">Contacto</h2>
+                    <p class="contacto__text">¿Quieres contactarme?</p>
+                    <p class="contacto__text">Complete el siguiente formulario y me pondre en contacto con usted lo antes posible</p>
+                        <input
+                         name="nombre"
+                         type="text"
+                         class= "contacto__input"
+                         placeholder="Nombre"
+                         required
+                        />
+                        <input
+                         name="email"
+                         type="email"
+                         class= "contacto__input"
+                         placeholder="Email"
+                         required
+                        />
+                        <input
+                         name="asunto"
+                         type="text"
+                         class= "contacto__input"
+                         placeholder="Asunto"
+                         
+                        />
+                        <textarea
+                         name="mensaje"
+                         type="text"
+                         class= "contacto__input contacto__input-grande"
+                         placeholder="Mensaje"
+                         
+                        ></textarea>
+
+                        <button class="contacto__button"type="submit">Enviar mensajes</button>
+                    </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <p>Desarollado por Luciano Moreno</p>
+                <p>2022</p>
+            </div>
+        </footer>
     </main>
 </html>
